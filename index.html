@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="description" content="Harsh Maurya - Frontend Developer & IT Engineering Student">
+    <meta name="author" content="Harsh Narendra Maurya">
+    <meta name="theme-color" content="#0a0e1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Harsh Maurya | Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <h2><i class="fas fa-code"></i> Harsh Maurya</h2>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <label for="nav-toggle" class="nav-overlay"></label>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <div class="hero-text">
+                <h1 class="hero-title"><span class="gradient-text">Harsh Narendra</span> Maurya</h1>
+                <p class="hero-subtitle"><span id="typed-text"></span><span class="typing-cursor"></span></p>
+                <p class="hero-description">Passionate about Full Stack Development, AI Technologies, and Web Development. Creating innovative digital solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-wrap">
+                    <img src="profile.webp" alt="Harsh Maurya Profile Photo" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="title-icon">✦</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p class="about-intro">
+                        I'm a motivated IT Engineering student with a strong passion for creating modern, user-friendly web applications. Skilled in multiple programming languages and frameworks, I combine technical expertise with creative problem-solving.
+                    </p>
+                    <div class="about-highlight">
+                        <h3>Career Objective</h3>
+                        <p>
+                            My journey includes developing innovative projects like <strong>AI Security Detector</strong> and <strong>Logisync MB</strong>. I've actively participated in prestigious hackathons including <strong>National Level Hackathon 360 2.0</strong> and <strong>NeoFuture Hackathon</strong> organized by IEEE Maharashtra Section. I'm seeking opportunities to enhance my technical skills and contribute to innovative, impactful projects.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-stats reveal">
+                    <div class="stat-box">
+                        <h4>2+</h4>
+                        <p>Years Learning</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>2</h4>
+                        <p>Projects Built</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>3+</h4>
+                        <p>Hackathons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="title-icon">✦</span> Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-database"></i> Backend & Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="title-icon">✦</span> Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>AI Security Detector</h3>
+                    <p>An AI-powered security detection tool that leverages machine learning to identify and mitigate potential security threats in real-time.</p>
+                    <div class="project-tags">
+                        <span>AI</span>
+                        <span>Machine Learning</span>
+                        <span>Security</span>
+                        <span>Web App</span>
+                    </div>
+                    <a href="https://ai-security-detector-12xr.vercel.app/" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Logisync MB</h3>
+                    <p>A collaborative logistics management platform that streamlines supply chain operations, shipment tracking, and route optimization for teams.</p>
+                    <div class="project-tags">
+                        <span>Node.js</span>
+                        <span>REST API</span>
+                        <span>MySQL</span>
+                        <span>Collaboration</span>
+                    </div>
+                    <a href="https://mirabhyanderlink-com-mrnf.vercel.app/" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="title-icon">✦</span> Achievements</h2>
+            <div class="achievements-list">
+                <div class="achievement-item reveal">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>National Level Hackathon 360 2.0</h3>
+                        <p>Actively participated in a prestigious national-level hackathon, showcasing innovative solutions and technical expertise.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-item reveal">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>NeoFuture Hackathon</h3>
+                        <p>Contributed to IEEE Maharashtra Section's NeoFuture Hackathon, developing cutting-edge solutions with fellow innovators.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-item reveal">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>IEEE Maharashtra Hackathon</h3>
+                        <p>Recognized participant in IEEE Maharashtra Section hackathons, demonstrating commitment to technological advancement and innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title reveal"><span class="title-icon">✦</span> Get In Touch</h2>
+            <p class="section-subtitle reveal">I'd love to hear from you! Feel free to reach out through any of these channels:</p>
+            
+            <div class="contact-methods">
+                <a href="https://linkedin.com" target="_blank" class="contact-card reveal">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with me</p>
+                </a>
+                <a href="https://github.com/harshmaurya5084-byte" target="_blank" class="contact-card reveal">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Check my projects</p>
+                </a>
+                <a href="mailto:harshmaurya5084@gmail.com" class="contact-card reveal">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>harshmaurya5084@gmail.com</p>
+                </a>
+            </div>
+
+            <form class="contact-form reveal" action="mailto:harshmaurya5084@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Harsh Maurya</h3>
+                    <p>Frontend Developer & IT Engineering Student</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/harshmaurya5084-byte" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:harshmaurya5084@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Harsh Maurya. All rights reserved. | Designed & Developed with <i class="fas fa-heart"></i> by Harsh Maurya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+<script>
+    // === Typing Animation ===
+    const phrases = [
+        'Frontend Developer',
+        'IT Engineering Student',
+        'Full Stack Enthusiast',
+        'AI & Web Innovator'
+    ];
+    const typedEl = document.getElementById('typed-text');
+    let phraseIdx = 0, charIdx = 0, isDeleting = false;
+
+    function typeEffect() {
+        const current = phrases[phraseIdx];
+        if (isDeleting) {
+            typedEl.textContent = current.substring(0, charIdx--);
+        } else {
+            typedEl.textContent = current.substring(0, charIdx++);
+        }
+
+        let speed = isDeleting ? 40 : 80;
+
+        if (!isDeleting && charIdx === current.length + 1) {
+            speed = 2000;
+            isDeleting = true;
+        } else if (isDeleting && charIdx < 0) {
+            isDeleting = false;
+            phraseIdx = (phraseIdx + 1) % phrases.length;
+            speed = 400;
+        }
+
+        setTimeout(typeEffect, speed);
+    }
+    typeEffect();
+
+    // === Scroll Reveal (IntersectionObserver) ===
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('visible');
+                }, i * 100);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => observer.observe(el));
+
+    // === Scroll-to-Top ===
+    const scrollTopBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+        scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+    });
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // === Close Mobile Nav on Link Click ===
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            document.getElementById('nav-toggle').checked = false;
+        });
+    });
+
+    // === Active Nav Highlight on Scroll ===
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            if (window.scrollY >= section.offsetTop - 100) {
+                current = section.getAttribute('id');
+            }
+        });
+        navLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+        });
+    });
+</script>
+</body>
+</html>
